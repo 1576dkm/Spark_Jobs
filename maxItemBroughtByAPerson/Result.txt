@@ -1,0 +1,50 @@
++------+----+--------+
+|  name|item|quantity|
++------+----+--------+
+|Ramesh|   A|      10|
+|Suresh|   A|       9|
+|Ramesh|   A|      11|
+|Ramesh|   B|       8|
+|Suresh|   C|       7|
+|Suresh|   B|       6|
+|Ramesh|   B|       7|
+|Suresh|   A|       4|
+|Ramesh|   C|       3|
++------+----+--------+
+
++------+----+-------------+
+|name  |item|TotalQuantity|
++------+----+-------------+
+|Ramesh|A   |21           |
+|Ramesh|B   |15           |
+|Suresh|A   |13           |
+|Suresh|C   |7            |
+|Suresh|B   |6            |
+|Ramesh|C   |3            |
++------+----+-------------+
+
++------+----+-------------+----------+
+|  name|item|TotalQuantity|MaxBrought|
++------+----+-------------+----------+
+|Ramesh|   B|           15|        15|
+|Suresh|   B|            6|        15|
+|Ramesh|   C|            3|         7|
+|Suresh|   C|            7|         7|
+|Ramesh|   A|           21|        21|
+|Suresh|   A|           13|        21|
++------+----+-------------+----------+
+
++------+----+-------------+----------+
+|name  |item|TotalQuantity|MaxBrought|
++------+----+-------------+----------+
+|Ramesh|A   |21           |21        |
+|Ramesh|B   |15           |15        |
+|Suresh|C   |7            |7         |
++------+----+-------------+----------+
+
+skewed_large_rdd has 16 partitions.
+The distribution of elements across partitions is: [(0, 1), (1, 2), (2, 7), (3, 20), (4, 54), (5, 148), (6, 403), (7, 1096), (8, 2980), (9, 8103), (10, 22026), (11, 59874), (12, 162754), (13, 442413), (14, 1202604), (15, 3269017)]
+The direct join takes 0:00:07.371745
+The hashed join takes 0:00:06.256539
+
+Process finished with exit code 0

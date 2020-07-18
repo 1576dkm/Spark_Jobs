@@ -1,0 +1,6 @@
+('B6', 3417)
+[('Honolulu, HI', 4243.0), ('Kahului, HI', 4184.0), ('Anchorage, AK', 2846.0), ('Charlotte Amalie, VI', 2116.0), ('San Juan, PR', 2072.0), ('San Francisco, CA', 1855.0), ('San Francisco, CA', 1846.0), ('Oakland, CA', 1844.0), ('San Jose, CA', 1838.0), ('Oakland, CA', 1836.0)]
+('DL', -1702.0)
+('Minneapolis, MN', -8.52276480301958)
+
+Process finished with exit code 0

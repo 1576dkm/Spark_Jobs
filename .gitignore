@@ -1,0 +1,9 @@
+*.metadata
+*.project
+*.pydevproject
+*target
+*.idea
+*.git
+pushToGithub.bat
+pushToGithub.sh
+

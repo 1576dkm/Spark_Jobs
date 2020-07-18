@@ -1,0 +1,155 @@
+LEFT
++---+-----+
+| id|value|
++---+-----+
+|  3|   A3|
+|  4| A4_1|
+|  4|   A4|
+|  5|   A5|
+|  6|   A6|
++---+-----+
+
+RIGHT
++---+-----+
+|id1|value|
++---+-----+
+|  1|   A1|
+|  2|   A2|
+|  3|   A3|
+|  4|   A4|
++---+-----+
+
+inner join!!!!!
++---+-----+---+-----+
+| id|value|id1|value|
++---+-----+---+-----+
+|  3|   A3|  3|   A3|
+|  4|   A4|  4|   A4|
+|  4| A4_1|  4|   A4|
++---+-----+---+-----+
+
+outer join!!!!!
++----+-----+----+-----+
+|  id|value| id1|value|
++----+-----+----+-----+
+|   6|   A6|null| null|
+|   5|   A5|null| null|
+|null| null|   1|   A1|
+|   3|   A3|   3|   A3|
+|null| null|   2|   A2|
+|   4|   A4|   4|   A4|
+|   4| A4_1|   4|   A4|
++----+-----+----+-----+
+
+full join!!!!!
++----+-----+----+-----+
+|  id|value| id1|value|
++----+-----+----+-----+
+|   6|   A6|null| null|
+|   5|   A5|null| null|
+|null| null|   1|   A1|
+|   3|   A3|   3|   A3|
+|null| null|   2|   A2|
+|   4|   A4|   4|   A4|
+|   4| A4_1|   4|   A4|
++----+-----+----+-----+
+
+full_outer join!!!!!
++----+-----+----+-----+
+|  id|value| id1|value|
++----+-----+----+-----+
+|   6|   A6|null| null|
+|   5|   A5|null| null|
+|null| null|   1|   A1|
+|   3|   A3|   3|   A3|
+|null| null|   2|   A2|
+|   4|   A4|   4|   A4|
+|   4| A4_1|   4|   A4|
++----+-----+----+-----+
+
+left join!!!!!
++---+-----+----+-----+
+| id|value| id1|value|
++---+-----+----+-----+
+|  6|   A6|null| null|
+|  5|   A5|null| null|
+|  3|   A3|   3|   A3|
+|  4|   A4|   4|   A4|
+|  4| A4_1|   4|   A4|
++---+-----+----+-----+
+
+left_outer join!!!!!
++---+-----+----+-----+
+| id|value| id1|value|
++---+-----+----+-----+
+|  6|   A6|null| null|
+|  5|   A5|null| null|
+|  3|   A3|   3|   A3|
+|  4|   A4|   4|   A4|
+|  4| A4_1|   4|   A4|
++---+-----+----+-----+
+
+right join!!!!!
++----+-----+---+-----+
+|  id|value|id1|value|
++----+-----+---+-----+
+|null| null|  1|   A1|
+|   3|   A3|  3|   A3|
+|null| null|  2|   A2|
+|   4|   A4|  4|   A4|
+|   4| A4_1|  4|   A4|
++----+-----+---+-----+
+
+right_outer join!!!!!
++----+-----+---+-----+
+|  id|value|id1|value|
++----+-----+---+-----+
+|null| null|  1|   A1|
+|   3|   A3|  3|   A3|
+|null| null|  2|   A2|
+|   4|   A4|  4|   A4|
+|   4| A4_1|  4|   A4|
++----+-----+---+-----+
+
+left_semi join!!!!!
++---+-----+
+| id|value|
++---+-----+
+|  3|   A3|
+|  4|   A4|
+|  4| A4_1|
++---+-----+
++---+-----+---+-----+
+| id|value|id1|value|
++---+-----+---+-----+
+|  3|   A3|  3|   A3|
+|  4|   A4|  4|   A4|
+|  4| A4_1|  4|   A4|
++---+-----+---+-----+
+
+left_anti join!!!!!
++---+-----+
+| id|value|
++---+-----+
+|  6|   A6|
+|  5|   A5|
++---+-----+
+
+left_anti join!!!!!
++---+-----+----+-----+
+| id|value| id1|value|
++---+-----+----+-----+
+|  6|   A6|null| null|
+|  5|   A5|null| null|
++---+-----+----+-----+
+Dear <HR Name>
+
+Hope you are keeping well.
+
+Thank you for shortlisting my profile for the Telephonic /Face to Face Interview.
+
+The interview went well from my end wanted to check on the feedback from your end so as to be prepared for further discussions.
+
+I would appreciate a honest feedback.
+
+Again, thank you for all your time and efforts.

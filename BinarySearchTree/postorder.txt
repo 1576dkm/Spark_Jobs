@@ -1,0 +1,31 @@
+def postOrderOneStack(tnode:TreeNode) //postorder traversal without deleting the tree
+  {
+        var curr = tnode
+        var stc = new Stack(2)
+        while(curr != null || !stc.isEmpty())
+        {
+            if(curr != null)
+            {
+                stc.push(curr)
+                curr = curr.left
+            }
+            else
+            {
+                var temp:TreeNode = stc.peek().right
+                if (temp == null)
+                {
+                    temp = stc.pop();
+                    print(temp.data + " ")
+                    while (!stc.isEmpty() && temp == stc.peek().right)
+                    {
+                        temp = stc.pop();
+                        print(temp.data + " ")
+                    }
+                }
+                else
+                {
+                    curr = temp
+                }
+            }
+        }
+    }
